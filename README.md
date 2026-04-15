@@ -25,7 +25,7 @@ The raw dataset included a `Price_per_sqft` column (equal to `price / Size_ft²`
 
 | Method | Best CV MAE | Best Params |
 |---|---|---|
-| **Grid Search** 🏆 | ₹13,276.83 | `n_estimators=200, max_depth=25, min_samples_split=2` |
+| **Grid Search**  | ₹13,276.83 | `n_estimators=200, max_depth=25, min_samples_split=2` |
 | Random Search | ₹13,307.13 | `n_estimators=142, max_depth=24, min_samples_split=2` |
 | Bayesian (Optuna) | ₹13,495.13 | `n_estimators=155, max_depth=24, min_samples_split=2` |
 
